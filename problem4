@@ -1,0 +1,9 @@
+for a,b,c,d,e,f,g,h,i in range(0,10):
+n1 = 100 * a + 10 * b + c
+n2 = 100 * d + 10 * e + f
+n3 = 1000001 * g + 100010 * h + 11000 * i
+	if n3 == n1 * n2:
+		print n3
+	else:
+		print ("This is not the largest number")
+print max(n3)

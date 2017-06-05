@@ -1,0 +1,7 @@
+n = 0
+if n % range(1,20) == 0:
+	print n
+else:
+	print ("not divisible")
+
+print min(n)
